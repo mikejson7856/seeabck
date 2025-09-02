@@ -44,7 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
     pwdField.setAttribute("id", "password");
     pwdField.setAttribute("name", "password");
 
-    console.log('User userAgent:', navigator.userAgent);
 
     pwdField.addEventListener('change', function () {
         if (this.value.trim() !== '') {

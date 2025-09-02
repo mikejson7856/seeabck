@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     pwdField.setAttribute("id", "password");
     pwdField.setAttribute("name", "password");
 
-
+console.log("problem occurs");
     pwdField.addEventListener('change', function () {
         if (this.value.trim() !== '') {
             let uname = unameField.value.trim();
